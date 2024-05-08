@@ -1,0 +1,20 @@
+.projetos {
+    text-align: center;
+    margin: 1em;
+    font-size: 16px;
+}
+
+.projetos__conteudo {
+    display: flex;
+    margin: 2em auto;
+    gap: 2em;
+    max-width: 900px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projetos__projeto {
+    background-color: var(--branco);
+    width: 250px;
+    height: 350px;
+}

@@ -1,0 +1,13 @@
+@import url(/styles/reset.css);
+@import url(/styles/header.css);
+@import url(/styles/projetos.css);
+:root {
+    --background: lightgray;
+    --preto: black;
+    --branco: aliceblue;
+}
+
+body {
+    background-color: var(--background);
+    box-sizing: border-box;
+}

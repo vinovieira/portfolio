@@ -1,0 +1,15 @@
+.cabecalho {
+    background-color: var(--branco);
+}
+
+.cabecalho__lista {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho__link {
+    text-decoration: none;
+    color: var(--preto);
+    padding: 1em;
+}
