@@ -1,13 +1,16 @@
 @import url(/styles/reset.css);
 @import url(/styles/header.css);
 @import url(/styles/projetos.css);
+@import url(/styles/sobre.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 :root {
     --background: lightgray;
-    --preto: black;
+    --preto: #0e0e0e;
     --branco: aliceblue;
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--preto);
     box-sizing: border-box;
 }
