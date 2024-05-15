@@ -1,6 +1,10 @@
 .cabecalho {
     background-color: var(--preto);
     padding: 0 1em;
+    position: sticky;
+    top: 0;
+    background: rgba(14, 14, 14, 0.60);
+    backdrop-filter: blur(5px);
 }
 
 .cabecalho__lista {
