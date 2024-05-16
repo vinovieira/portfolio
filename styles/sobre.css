@@ -1,6 +1,6 @@
 .sobre {
     color: var(--branco);
-    padding: 2em;
+    margin: 2em;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
