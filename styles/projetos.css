@@ -1,7 +1,8 @@
 .projetos {
     text-align: center;
     font-size: 16px;
-    margin: 2em;
+    margin: 5em auto;
+    width: min(100%, 700px);
 }
 
 .projetos__titulo {
@@ -15,16 +16,17 @@
 .projetos__conteudo {
     display: flex;
     margin: 1em auto;
-    gap: 2em;
-    max-width: 900px;
+    gap: 1em;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .projetos__projeto {
     background-color: var(--cinza);
-    width: 330px;
+    min-width: 250px;
+    max-width: 330px;
     border-radius: 15px;
+    flex: 1 0 30%;
 }
 
 .projeto__titulo {
@@ -36,6 +38,10 @@
     padding: 1em;
 }
 
+.projeto__imagem {
+    width: 100%
+}
+
 .projeto__descricao {
     color: var(--branco);
     font-family: "Montserrat", sans-serif;
@@ -44,18 +50,13 @@
     text-align: left;
     padding: 1em;
     line-height: 150%;
-}
-
-.projeto__footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    letter-spacing: 0.8px;
 }
 
 .projeto__tecnologias {
     display: flex;
     gap: 0.5em;
-    margin: 1em;
+    margin: 0 1em;
     align-items: center;
 }
 
@@ -63,12 +64,12 @@
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     color: var(--branco);
-    text-decoration: none;
     border: 1px solid var(--branco);
-    padding: 0.5em 2em;
+    padding: 0.5em 1em;
     border-radius: 7.5px;
+    text-decoration: none;
+    display: inline-block;
     margin: 1em;
-
 }
 
 .projetos__ver-mais {
@@ -83,5 +84,16 @@
     margin: 1em;
 }
 
+@media screen and (min-width: 756px) {
+    .projetos {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .projetos {
+        width: 60%
+    }
+}
 
 

@@ -1,0 +1,63 @@
+.contact {
+    color: var(--branco);
+    margin: 5em auto;
+    width: min(100%, 700px);
+}
+
+.contact__title {
+    color: var(--branco);
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.contact__list {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    gap: 1em;
+}
+
+.contact__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--branco);
+    text-decoration: none;
+    background-color: var(--cinza);
+    padding: 1em;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.contact__link > .link__arrow {
+    margin-left: auto;
+}
+
+@media screen and (min-width: 1366px) {
+    .contact {
+        display: flex;
+    }
+
+    .contact__link {
+        font-size: 16px;
+    }
+
+    .contact__list {
+        width: min(100%, 700px);
+    }
+
+    .contact__title {
+        display: block;
+        padding: 0.5em;
+        margin: 1em;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        opacity: 0.5;
+    }
+
+}

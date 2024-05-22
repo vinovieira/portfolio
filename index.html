@@ -9,59 +9,87 @@
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__lista">
-            <a class="cabecalho__link" href="#"><img src="/img/logo.svg" alt=""></a>
+        <nav class="cabecalho__nav">
+            <a class="cabecalho__logo" href="#"><img src="" alt="">Vieira</a>
+            <div class="cabecalho__menu">
+                <ul class="cabecalho__lista">
+                    <li><a class="cabecalho__link" href="#sobre">Sobre</a></li>
+                    <li><a class="cabecalho__link" href="#trabalho">Trabalho</a></li>
+                    <li><a class="cabecalho__link" href="#projetos">Projetos</a></li>
+                    <li><a class="cabecalho__link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
             <div class="cabecalho__menu__direto">
             <button class="cabecalho__lightdark__botao"><img src="/img/moon.svg" alt=""></button>
             <button class="cabecalho__menu__botao"><img src="/img/menu-closed.svg" alt=""></button>
             </div>
-
         </nav>
     </header>
     <main class="conteudo">
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <h2 class="sobre__titulo">Sobre</h2>
             <p class="sobre__subtitulo">Um pouco sobre mim.</p>
             <img src="/img/Silvino.svg" alt="">
+            <div class="sobre__caixa">
+            <h2 class="sobre__texto__titulo">Sobre</h2>
             <div class="sobre__texto">
-            <p class="sobre__texto__paragrafo">Lorem ipsum dolor sit amet consectetur. Sed in lectus non elit eget neque ante feugiat turpis. Gravida scelerisque egestas mauris facilisi massa arcu ipsum. Eget lacinia amet massa dictum vel proin. Consectetur feugiat nam mi faucibus consectetur. Porta et dignissim suspendisse consectetur aliquet. Nulla ac leo at erat. </p>
-            <p class="sobre__texto__paragrafo">Parturient pulvinar in ipsum nisi vitae tortor malesuada. Adipiscing sed mollis condimentum in risus quam consequat. Sit cursus tellus in dolor lobortis vel. Quam nulla imperdiet tristique nibh ac neque consequat aliquam cursus. Turpis magna non tincidunt urna adipiscing nibh. Suscipit gravida iaculis massa aliquet ac velit nec rhoncus auctor. Nibh sit scelerisque pulvinar proin lectus faucibus.</p>
+            <p class="sobre__texto__paragrafo">Olá, sou Silvino, Desenvolvedor Web e Oficial do Exército, atualmente cursando Análise e Desenvolvimento de Sistemas na FIAP, desenvolvo sistemas há 1 ano e minha jornada de aprendizado apenas começou.</p>
+            <p class="sobre__texto__paragrafo">Tenho paixão por desenvolver sistemas ágeis e robustos que capacitam empresas e indivíduos a concretizarem suas ideias transformadoras. Com uma abordagem centrada na excelência técnica e na busca por soluções inovadoras, estou determinado a fazer uma contribuição significativa no cruzamento entre tecnologia e mudança social.</p>
+            </div>
             </div>
         </section>
-        <section class="projetos">
+        <section class="projetos" id="projetos">
             <h2 class="projetos__titulo">Projetos</h2>
             <div class="projetos__conteudo">
                 <div class="projetos__projeto">
                     <h3 class="projeto__titulo">dashboard</h3>
                     <img class="projeto__imagem" src="img/mockup.svg" alt="">
-                    <p class="projeto__descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam cum deserunt sed
-                        commodi enim mollitia laudantium dicta distinctio fugiat sint?</p>
-                    <div class="projeto__footer">
-                        <ul class="projeto__tecnologias">
-                            <li><img src="/img/html-logo.svg" alt=""></li>
-                            <li><img src="/img/css-logo.svg" alt=""></li>
-                            <li><img src="/img/js-logo.svg" alt=""></li>
-                        </ul>
-                        <a class="projeto__saiba-mais" href="#">Saiba Mais</a>
-                    </div>
+                        <p class="projeto__descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam cum deserunt sed
+                            commodi enim mollitia laudantium dicta distinctio fugiat sint?</p>
+                            <ul class="projeto__tecnologias">
+                                <li><img src="/img/html-logo.svg" alt=""></li>
+                                <li><img src="/img/css-logo.svg" alt=""></li>
+                                <li><img src="/img/js-logo.svg" alt=""></li>
+                            </ul>
+                            <a class="projeto__saiba-mais" href="#">Saiba Mais</a>
                 </div>
                 
                 <div class="projetos__projeto">
-                    <h3 class="projeto__titulo">dashboard</h3>
-                    <img class="projeto__imagem" src="img/mockup.svg" alt="">
-                    <p class="projeto__descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam cum deserunt sed
-                        commodi enim mollitia laudantium dicta distinctio fugiat sint?</p>
-                    <div class="projeto__footer">
+                    <h3 class="projeto__titulo">playhits</h3>
+                    <img class="projeto__imagem" src="img/mockup1.svg" alt="">
+                    <p class="projeto__descricao">Lorem ipsum dolor sit amet consectetur. Consectetur cursus massa rutrum posuere ut accumsan amet nec. Et pellentesque sodales convallis sed sapien placerat sagittis lorem.</p>
                         <ul class="projeto__tecnologias">
                             <li><img src="/img/html-logo.svg" alt=""></li>
                             <li><img src="/img/css-logo.svg" alt=""></li>
                             <li><img src="/img/js-logo.svg" alt=""></li>
+                            <li><img src="/img/node.svg" alt=""></li>
+                            <li><img src="/img/oracle.svg" alt=""></li>
                         </ul>
                         <a class="projeto__saiba-mais" href="#">Saiba Mais</a>
-                    </div>
+                </div>
+                
+                <div class="projetos__projeto">
+                    <h3 class="projeto__titulo">codecamp</h3>
+                    <img class="projeto__imagem" src="img/mockup2.svg" alt="">
+                    <p class="projeto__descricao">Lorem ipsum dolor sit amet consectetur. Facilisi nibh maecenas faucibus luctus mauris tellus donec. Enim sociis eros nisl feugiat urna ut.</p>
+                        <ul class="projeto__tecnologias">
+                            <li><img src="/img/react.svg" alt=""></li>
+                            <li><img src="/img/java.svg" alt=""></li>
+                            <li><img src="/img/spring.svg" alt=""></li>
+                            <li><img src="/img/sql.svg" alt=""></li>
+                        </ul>
+                        <a class="projeto__saiba-mais" href="#">Saiba Mais</a>
                 </div>
             </div>
             <button class="projetos__ver-mais">Ver mais projetos</button>
+        </section>
+        <section class="contact" id="contato">
+            <h2 class="contact__title">Contato</h2>
+            <div class="contact__list">
+                <a class="contact__link" href="https://www.linkedin.com/in/vinovieira/"><img src="/img/linkedin.svg" alt="">LinkedIn<img class="link__arrow" src="/img/arrow.svg" alt=""></a>
+                <a class="contact__link" href="https://github.com/vinovieira"><img src="/img/github.svg" alt="">GitHub<img class="link__arrow" src="/img/arrow.svg" alt=""></a>
+                <a class="contact__link" href="mailto:svjunior1971@hotmail.com"><img src="/img/e-email.svg" alt="">E-mail<img class="link__arrow" src="/img/arrow.svg" alt=""></a>
+            </div>
         </section>
     </main>
     <footer></footer>

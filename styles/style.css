@@ -2,16 +2,27 @@
 @import url(/styles/header.css);
 @import url(/styles/projetos.css);
 @import url(/styles/sobre.css);
+@import url(/styles/contact.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 :root {
     --background: lightgray;
     --preto: #0e0e0e;
     --branco: aliceblue;
     --cinza: #1c1c1c;
+    --fonte-principal: "Montserrat", sans-serif;
+    --fonte-secundaria: "Playfair Display", serif;
+    --fonte-logo: "Arsenal", sans-serif;
 }
 
 body {
-    background-color: var(--preto);
+    background: var(--preto);
     box-sizing: border-box;
+    padding: 0 2em;
+}
+@media screen and (min-width: 1366px) {
+    body {
+        padding: 2em;
+    }
 }
