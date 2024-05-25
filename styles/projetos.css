@@ -2,7 +2,6 @@
     text-align: center;
     font-size: 16px;
     margin: 5em auto;
-    width: min(100%, 700px);
 }
 
 .projetos__titulo {
@@ -15,18 +14,17 @@
 
 .projetos__conteudo {
     display: flex;
-    margin: 1em auto;
     gap: 1em;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 1em 0;
 }
 
 .projetos__projeto {
     background-color: var(--cinza);
-    min-width: 250px;
-    max-width: 330px;
     border-radius: 15px;
-    flex: 1 0 30%;
+    flex: 1 330px;
+    max-width: 430px;
 }
 
 .projeto__titulo {
@@ -57,7 +55,6 @@
     display: flex;
     gap: 0.5em;
     margin: 0 1em;
-    align-items: center;
 }
 
 .projeto__saiba-mais {
@@ -70,6 +67,7 @@
     text-decoration: none;
     display: inline-block;
     margin: 1em;
+    align-self: end;
 }
 
 .projetos__ver-mais {
@@ -84,15 +82,10 @@
     margin: 1em;
 }
 
-@media screen and (min-width: 756px) {
-    .projetos {
-        width: 80%;
-    }
-}
 
 @media screen and (min-width: 1366px) {
     .projetos {
-        width: 60%
+        width: min(100%, 1366px)
     }
 }
 

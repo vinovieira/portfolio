@@ -21,8 +21,3 @@ body {
     box-sizing: border-box;
     padding: 0 2em;
 }
-@media screen and (min-width: 1366px) {
-    body {
-        padding: 2em;
-    }
-}
