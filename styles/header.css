@@ -60,6 +60,6 @@
 
 @media screen and (min-width: 1366px) {
     .cabecalho__nav {
-        width: min(100%, 1366px);
+        width: min(100%, 1082px);
     }
 }
