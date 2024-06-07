@@ -30,12 +30,27 @@
 .imagem {
     max-width: 100%;
 }
+
+/* teste da função para aumentar a imagem -> fazer com js */
+    /* .sobre__imagens:hover {
+        .imagem{
+        width: 20%;
+    }
+    .imagem:hover{
+        width: 100%;
+    }
+} */
+
 .imagem1 {
     justify-self: end;
 }
 
 .imagem2 {
     align-self: end;
+}
+
+.imagem3 {
+    justify-self: end;
 }
 
 .sobre__texto__titulo {
