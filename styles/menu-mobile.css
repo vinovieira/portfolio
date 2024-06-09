@@ -1,0 +1,47 @@
+.js [data-menu="button"] {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 300;
+    padding: .5em;
+}
+
+.js [data-menu="list"] {
+    display: none;
+    flex-direction: column;
+    background-color: var(--background-color-blur);
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    text-align: left;
+    width: 175px;
+    filter: drop-shadow(-2px 2px 5px rgba(0, 0, 0, 0.25));
+}
+
+.js [data-menu="list"].active {
+    display: block
+}
+
+.js [data-menu="list"] li {
+    display: flex;
+}
+.js [data-menu="list"] a {
+    position: relative;
+    text-decoration: none;
+    color: var(--text-color);
+    width: 100%;
+    padding: .8em 1.2em;
+}
+
+@media screen and (min-width: 756px) {
+    .js [data-menu="button"] {
+        display: none;
+    }
+    
+    .js [data-menu="list"] {
+        display: none;
+    }
+}

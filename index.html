@@ -10,6 +10,14 @@
     </script>
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -18,15 +26,22 @@
             <a class="header__logo" href="#"><img src="" alt="">Vieira</a>
             <div class="header__menu">
                 <ul class="header__lista">
-                    <li><a class="header__link" href="#sobre">Sobre</a></li>
+                    <li><a class="header__link" data-async href="index.html">Sobre</a></li>
                     <!-- <li><a class="header__link" href="#trabalho">Trabalho</a></li> -->
-                    <li><a class="header__link" href="#projetos">Projetos</a></li>
-                    <li><a class="header__link" href="#contato">Contato</a></li>
+                    <!-- <li><a class="header__link" data-async href="#contato">Contato</a></li> -->
+                    <li><a class="header__link" data-async href="projetos.html">Projetos</a></li>
                 </ul>
             </div>
             <div class="header__menu__direto">
-                <button class="header__lightdark__botao"><img src="/img/moon.svg" alt=""></button>
-                <button class="header__menu__botao"><img src="/img/menu-closed.svg" alt=""></button>
+                <button class="header__lightdark__botao"><img src="/img/white.svg" data-logo alt=""></button>
+                <button class="header__menu__botao" aria-expanded="false" aria-controls="menu" data-menu="button"><img
+                        src="/img/menu-closed.svg" alt="" data-logo></button>
+                <ul class="menu-mobile__lista" data-menu="list">
+                    <li><a class="menu-mobile__link" href="index.html" data-async>Sobre</a></li>
+                    <!-- <li><a class="header__link" href="#trabalho">Trabalho</a></li> -->
+                    <!-- <li><a class="header__link" data-async href="#contato">Contato</a></li> -->
+                    <li><a class="menu-mobile__link" href="projetos.html" data-async>Projetos</a></li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -58,64 +73,16 @@
                 </div>
             </div>
         </section>
-        <section class="projetos" id="projetos" data-anima="section">
-            <h2 class="projetos__titulo">Projetos</h2>
-            <div class="projetos__conteudo">
-                <div class="projetos__projeto">
-                    <h3 class="projeto__titulo">dashboard</h3>
-                    <img class="projeto__imagem" src="img/mockup.svg" alt="">
-                    <p class="projeto__descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam cum
-                        deserunt sed
-                        commodi enim mollitia laudantium dicta distinctio fugiat sint?</p>
-                    <ul class="projeto__tecnologias">
-                        <li><img src="/img/html-logo.svg" alt=""></li>
-                        <li><img src="/img/css-logo.svg" alt=""></li>
-                        <li><img src="/img/js-logo.svg" alt=""></li>
-                    </ul>
-                    <a class="projeto__saiba-mais" href="#">Saiba Mais</a>
-                </div>
 
-                <div class="projetos__projeto">
-                    <h3 class="projeto__titulo">playhits</h3>
-                    <img class="projeto__imagem" src="img/mockup1.svg" alt="">
-                    <p class="projeto__descricao">Lorem ipsum dolor sit amet consectetur. Consectetur cursus massa
-                        rutrum posuere ut accumsan amet nec. Et pellentesque sodales convallis sed sapien placerat
-                        sagittis lorem.</p>
-                    <ul class="projeto__tecnologias">
-                        <li><img src="/img/html-logo.svg" alt=""></li>
-                        <li><img src="/img/css-logo.svg" alt=""></li>
-                        <li><img src="/img/js-logo.svg" alt=""></li>
-                        <li><img src="/img/node.svg" alt=""></li>
-                        <li><img src="/img/oracle.svg" alt=""></li>
-                    </ul>
-                    <a class="projeto__saiba-mais" href="#">Saiba Mais</a>
-                </div>
-
-                <div class="projetos__projeto">
-                    <h3 class="projeto__titulo">codecamp</h3>
-                    <img class="projeto__imagem" src="img/mockup2.svg" alt="">
-                    <p class="projeto__descricao">Lorem ipsum dolor sit amet consectetur. Facilisi nibh maecenas
-                        faucibus luctus mauris tellus donec. Enim sociis eros nisl feugiat urna ut.</p>
-                    <ul class="projeto__tecnologias">
-                        <li><img src="/img/react.svg" alt=""></li>
-                        <li><img src="/img/java.svg" alt=""></li>
-                        <li><img src="/img/spring.svg" alt=""></li>
-                        <li><img src="/img/sql.svg" alt=""></li>
-                    </ul>
-                    <a class="projeto__saiba-mais" href="#">Saiba Mais</a>
-                </div>
-            </div>
-            <button class="projetos__ver-mais">Ver mais projetos</button>
-        </section>
         <section class="contact" id="contato" data-anima="section">
             <h2 class="contact__title">Contato</h2>
             <div class="contact__list">
                 <a class="contact__link" href="https://www.linkedin.com/in/vinovieira/"><img src="/img/linkedin.svg"
-                        alt="">LinkedIn<img class="link__arrow" src="/img/arrow.svg" alt=""></a>
-                <a class="contact__link" href="https://github.com/vinovieira"><img src="/img/github.svg"
-                        alt="">GitHub<img class="link__arrow" src="/img/arrow.svg" alt=""></a>
-                <a class="contact__link" href="mailto:svjunior1971@hotmail.com"><img src="/img/e-email.svg"
-                        alt="">E-mail<img class="link__arrow" src="/img/arrow.svg" alt=""></a>
+                        alt="" data-logo>LinkedIn<img class="link__arrow" src="/img/arrow.svg" alt=""></a>
+                <a class="contact__link" href="https://github.com/vinovieira"><img src="/img/github.svg" alt=""
+                        data-logo>GitHub<img class="link__arrow" src="/img/arrow.svg" alt=""></a>
+                <a class="contact__link" href="mailto:svjunior1971@hotmail.com"><img src="/img/e-email.svg" alt=""
+                        data-logo>E-mail<img class="link__arrow" src="/img/arrow.svg" alt=""></a>
             </div>
         </section>
     </main>

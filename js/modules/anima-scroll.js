@@ -4,7 +4,7 @@ export default function initAnimaScroll() {
     const windowMetade = window.innerHeight * 0.7
     
     function showSection() {
-        
+
         sections.forEach((section) => {
             const distanciaTop = section.getBoundingClientRect().top
             const sectionVisible = (distanciaTop - windowMetade) < 0
@@ -15,7 +15,7 @@ export default function initAnimaScroll() {
             }
     })
     }
-    
+
     showSection()
     
     window.addEventListener('scroll', showSection)

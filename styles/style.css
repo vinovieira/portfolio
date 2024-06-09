@@ -3,22 +3,40 @@
 @import url(/styles/projetos.css);
 @import url(/styles/sobre.css);
 @import url(/styles/contact.css);
+@import url(/styles/menu-mobile.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
-    --background: lightgray;
-    --preto: #0e0e0e;
-    --branco: aliceblue;
-    --cinza: #1c1c1c;
+    --text-color: white;
+    --bg-color: #0e0e0e;
+    --stroke-color: #1c1c1c;
+    --background-color: #1c1c1c;
+    --background-blur: rgba(14, 14, 14, 0.5);
+    --background-color-blur: rgba(30, 30, 30, 0.9);
+    --hover-hide: #1c1c1c;
     --fonte-principal: "Montserrat", sans-serif;
     --fonte-secundaria: "Playfair Display", serif;
     --fonte-logo: "Arsenal", sans-serif;
-}
+    }
+    
+    .light {
+        --text-color: black;
+        --bg-color: rgb(240, 240, 240);
+        --stroke-color: rgb(225, 225, 225);
+        --background-color: rgb(225, 225, 225);
+        --background-blur: rgba(225, 225, 225, 0.5);
+        --background-color-blur: rgba(225, 225, 225, 0.9);
+    --hover-hide: rgb(225, 225, 225);
+  }
 
 body {
-    background: var(--preto);
+    background: var(--bg-color);
     box-sizing: border-box;
+    /* padding: 0 2em; */
+}
+
+.conteudo {
     padding: 0 2em;
 }
 

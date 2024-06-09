@@ -1,11 +1,13 @@
 adicionar interação javascript:
 1. Scroll Animacao OK
-2. Scroll Suave
+2. Scroll Suave NAO PRECISA AGORA
 3. Night Mode
 4. Tooltip imagens
 5. Modal projetos
 6. adicionar menu-burguer
 7. adicionar Parallax
+8. Criar outra Branch para salvar progresso OK
+9. Criar sistema de navegação assincrona na branch Main
 
 adicionar interação botões css
 1. Adicionar destaque ao botao de hover e tirar destaque dos demais da mesma lista em Contact OK

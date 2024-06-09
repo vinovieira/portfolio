@@ -1,5 +1,5 @@
 .sobre {
-    color: var(--branco);
+    color: var(--text-color);
     margin: 5em auto;
     width: min(100%, 700px);
     flex-direction: column;
@@ -60,7 +60,7 @@
 .sobre__texto {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 125%;
     margin: 1em 0;
     display: flex;
@@ -74,10 +74,6 @@
 @media screen and (min-width: 1366px) {
     .imagem2, .imagem3 {
         display: block;
-    }
-
-    .sobre {
-    width: 60%
     }
 
     .sobre__titulo {
