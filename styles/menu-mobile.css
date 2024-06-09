@@ -19,6 +19,7 @@
     text-align: left;
     width: 175px;
     filter: drop-shadow(-2px 2px 5px rgba(0, 0, 0, 0.25));
+    padding: .2em;
 }
 
 .js [data-menu="list"].active {
@@ -34,6 +35,11 @@
     color: var(--text-color);
     width: 100%;
     padding: .8em 1.2em;
+    border-radius: 15px;
+}
+
+.js [data-menu="list"] a:hover {
+    background-color: var(--bg-color);
 }
 
 @media screen and (min-width: 756px) {
