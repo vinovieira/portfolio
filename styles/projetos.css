@@ -31,6 +31,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 .projeto__titulo {
@@ -58,13 +59,21 @@
 }
 
 .projeto__tecnologias {
-    display: flex;
     gap: 0.5em;
     margin: 0 1em;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5em 0;
 }
 
-.projeto__saiba-mais {
+.projeto__tecnologia {
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: .75rem;
+    font-family: var(--fonte-principal);
+}
+
+/* .projeto__saiba-mais {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     color: var(--text-color);
@@ -84,7 +93,7 @@
     border: 1px solid var(--stroke-color);
     color: var(--background-color);
     font-weight: 500;
-}
+} */
 
 .projetos__ver-mais {
     background-color: transparent;

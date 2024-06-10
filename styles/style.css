@@ -21,12 +21,12 @@
     }
     
     .light {
-        --text-color: black;
-        --bg-color: rgb(240, 240, 240);
-        --stroke-color: rgb(225, 225, 225);
-        --background-color: rgb(225, 225, 225);
-        --background-blur: rgba(225, 225, 225, 0.5);
-        --background-color-blur: rgba(225, 225, 225, 0.9);
+    --text-color: black;
+    --bg-color: rgb(240, 240, 240);
+    --stroke-color: rgb(225, 225, 225);
+    --background-color: rgb(225, 225, 225);
+    --background-blur: rgba(225, 225, 225, 0.5);
+    --background-color-blur: rgba(225, 225, 225, 0.9);
     --hover-hide: rgb(225, 225, 225);
   }
 

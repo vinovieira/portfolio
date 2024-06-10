@@ -23,24 +23,24 @@
 <body>
     <header class="header">
         <nav class="header__nav">
-            <a class="header__logo" href="/index.html"><img src="" alt="">Vieira</a>
+            <a class="header__logo" href="index.html" data-async><img src="" alt="" >Vieira</a>
             <div class="header__menu">
                 <ul class="header__lista">
-                    <li><a class="header__link" data-async href="/index.html">Sobre</a></li>
+                    <li><a class="header__link" data-async href="index.html">Sobre</a></li>
                     <!-- <li><a class="header__link" href="#trabalho">Trabalho</a></li> -->
                     <!-- <li><a class="header__link" data-async href="#contato">Contato</a></li> -->
-                    <li><a class="header__link" data-async href="/projetos.html">Projetos</a></li>
+                    <li><a class="header__link" data-async href="projetos.html">Projetos</a></li>
                 </ul>
             </div>
             <div class="header__menu__direto">
-                <button class="header__lightdark__botao"><img src="/img/white.svg" data-logo alt=""></button>
+                <button class="header__lightdark__botao"><img src="/img/white.svg" data-logo data-dark-src="img/white-black.svg" alt=""></button>
                 <button class="header__menu__botao" aria-expanded="false" aria-controls="menu" data-menu="button"><img
-                        src="/img/menu-closed.svg" alt="" data-logo></button>
+                        src="/img/menu-closed.svg" alt="" data-logo data-dark-src="/img/menu-closed-black.svg"></button>
                 <ul class="menu-mobile__lista" data-menu="list">
-                    <li><a class="menu-mobile__link" href="index.html">Sobre</a></li>
+                    <li><a class="menu-mobile__link" href="index.html" data-async>Sobre</a></li>
                     <!-- <li><a class="header__link" href="#trabalho">Trabalho</a></li> -->
                     <!-- <li><a class="header__link" data-async href="#contato">Contato</a></li> -->
-                    <li><a class="menu-mobile__link" href="projetos.html">Projetos</a></li>
+                    <li><a class="menu-mobile__link" href="projetos.html" data-async>Projetos</a></li>
                 </ul>
             </div>
         </nav>
@@ -56,11 +56,12 @@
                         deserunt sed
                         commodi enim mollitia laudantium dicta distinctio fugiat sint?</p>
                     <ul class="projeto__tecnologias">
-                        <li><img src="/img/html-logo.svg" data-logo alt=""></li>
-                        <li><img src="/img/css-logo.svg" data-logo alt=""></li>
-                        <li><img src="/img/js-logo.svg" data-logo alt=""></li>
+                        <li><p class="projeto__tecnologia">html</p></li>
+                        <li><p class="projeto__tecnologia">•</p></li>
+                        <li><p class="projeto__tecnologia">css</p></li>
+                        <li><p class="projeto__tecnologia">•</p></li>
+                        <li><p class="projeto__tecnologia">javascript</p></li>
                     </ul>
-                    <a class="projeto__saiba-mais" href="#">Saiba Mais</a>
                 </div>
 
                 <div class="projetos__projeto">
@@ -70,13 +71,18 @@
                         rutrum posuere ut accumsan amet nec. Et pellentesque sodales convallis sed sapien placerat
                         sagittis lorem.</p>
                     <ul class="projeto__tecnologias">
-                        <li><img src="/img/html-logo.svg" data-logo alt=""></li>
-                        <li><img src="/img/css-logo.svg" data-logo alt=""></li>
-                        <li><img src="/img/js-logo.svg" data-logo alt=""></li>
-                        <li><img src="/img/node.svg" data-logo alt=""></li>
-                        <li><img src="/img/oracle.svg" data-logo alt=""></li>
+                        <li><p class="projeto__tecnologia">html</p></li>
+                        <li><p class="projeto__tecnologia">•</p></li>
+                        <li><p class="projeto__tecnologia">css</p></li>
+                        <li><p class="projeto__tecnologia">•</p></li>
+                        <li><p class="projeto__tecnologia">javascript</p></li>
+                        <li><p class="projeto__tecnologia">•</p></li>
+                        <li><p class="projeto__tecnologia">ORACLE DB</p></li>
+                        <li><p class="projeto__tecnologia">•</p></li>
+                        <li><p class="projeto__tecnologia">NODE.JS</p></li>
+                        <li><p class="projeto__tecnologia">•</p></li>
+                        <li><p class="projeto__tecnologia">BOOTSTRAP</p></li>
                     </ul>
-                    <a class="projeto__saiba-mais" href="#">Saiba Mais</a>
                 </div>
 
                 <div class="projetos__projeto">
@@ -85,12 +91,14 @@
                     <p class="projeto__descricao">Lorem ipsum dolor sit amet consectetur. Facilisi nibh maecenas
                         faucibus luctus mauris tellus donec. Enim sociis eros nisl feugiat urna ut.</p>
                     <ul class="projeto__tecnologias">
-                        <li><img src="/img/react.svg" data-logo alt=""></li>
-                        <li><img src="/img/java.svg" data-logo alt=""></li>
-                        <li><img src="/img/spring.svg" data-logo alt=""></li>
-                        <li><img src="/img/sql.svg" data-logo alt=""></li>
+                        <li><p class="projeto__tecnologia">typescript</p></li>
+                        <li><p class="projeto__tecnologia">•</p></li>
+                        <li><p class="projeto__tecnologia">react</p></li>
+                        <li><p class="projeto__tecnologia">•</p></li>
+                        <li><p class="projeto__tecnologia">java</p></li>
+                        <li><p class="projeto__tecnologia">•</p></li>
+                        <li><p class="projeto__tecnologia">spring</p></li>
                     </ul>
-                    <a class="projeto__saiba-mais" href="#">Saiba Mais</a>
                 </div>
             </div>
             <button class="projetos__ver-mais">Ver mais projetos</button>
