@@ -9,14 +9,14 @@
 
 .sobre__titulo {
     font-family: "Playfair Display", serif;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .sobre__subtitulo {
     font-family: "Playfair Display", serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .sobre__imagens {
