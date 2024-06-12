@@ -3,26 +3,19 @@ export default function initLightDark() {
 
 	function handleClick() {
 		const html = document.documentElement;
-		html.classList.toggle("light");
-
-		//Poderia adicionar data-dark="sourcedark" para mudar a src para o icone dark de cada elemento com mais facilidade
 		const changeIconsList = document.querySelectorAll("[data-logo]");
+		
+		html.classList.toggle("light");
 
 		changeIconsList.forEach((icon) => {
 			if (!icon.hasAttribute("data-original-src")) {
 				icon.setAttribute("data-original-src", icon.src);
-				}
-				
-			if (html.classList.contains("light")) {
-				const newSrc = icon.getAttribute("data-dark-src")
+			}
 
-				icon.setAttribute("src", newSrc);
+			if (html.classList.contains("light")) {
+				icon.setAttribute("src", icon.getAttribute("data-dark-src"));
 			} else {
-				const originalSrc = icon.getAttribute("data-original-src");
-				
-				if (originalSrc) {
-					icon.setAttribute("src", originalSrc);
-				}
+				icon.setAttribute("src", icon.getAttribute("data-original-src"));
 			}
 		});
 	}
