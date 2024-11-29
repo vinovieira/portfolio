@@ -76,14 +76,14 @@
         background-color: var(--text-color);
         transition: width 0.2s;
     }
-    
-    .header__link:hover::after {
-        width: 100%;
-    }
 }
 
 @media screen and (min-width: 1366px) {
     .header__nav {
         width: min(100%, 1082px);
+    }
+    
+    .header__link:hover::after {
+        width: 100%;
     }
 }

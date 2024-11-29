@@ -4,6 +4,7 @@
 @import url(/styles/sobre.css);
 @import url(/styles/contact.css);
 @import url(/styles/menu-mobile.css);
+@import url(/styles/modal.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
@@ -33,6 +34,7 @@
 body {
     background: var(--bg-color);
     box-sizing: border-box;
+    font-family: var(--fonte-principal);
     /* padding: 0 2em; */
 }
 

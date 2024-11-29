@@ -1,7 +1,7 @@
 export default function initAnimaScroll() {
     const sections = document.querySelectorAll('[data-anima="section"]')
     
-    const windowMetade = window.innerHeight * 0.75
+    const windowMetade = window.innerHeight * 0.80
     
     function showSection() {
 

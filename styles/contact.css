@@ -34,18 +34,20 @@
     border: 2px solid var(--stroke-color);
 }
 
-.contact__list:hover {
-    .contact__link {
-        background-color: var(--bg-color);
-        opacity: 0.5;
-        transition: opacity .3s;
-    }
-    .contact__link:hover {
-        background-color: var(--hover-hide);
-        opacity: 1;
-    }
-}
-
 .contact__link > .link__arrow {
     margin-left: auto;
+}
+
+@media screen and (min-width: 1366px) {
+    .contact__list:hover {
+        .contact__link {
+            background-color: var(--bg-color);
+            opacity: 0.5;
+            transition: opacity .3s;
+        }
+        .contact__link:hover {
+            background-color: var(--hover-hide);
+            opacity: 1;
+        }
+    }
 }

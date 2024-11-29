@@ -38,10 +38,6 @@
     border-radius: 15px;
 }
 
-.js [data-menu="list"] a:hover {
-    background-color: var(--bg-color);
-}
-
 @media screen and (min-width: 756px) {
     .js [data-menu="button"] {
         display: none;
@@ -49,5 +45,11 @@
     
     .js [data-menu="list"] {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .js [data-menu="list"] a:hover {
+        background-color: var(--bg-color);
     }
 }
