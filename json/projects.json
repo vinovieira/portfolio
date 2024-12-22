@@ -1,32 +1,42 @@
 [
     {
-        "id": 3,
-        "title": "BookStore",
-        "image": "img/bookstore.png",
-        "description": "Projeto básico de layout de uma loja de livros desenvolvido para praticar conceitos fundamentais de desenvolvimento web front-end.",
+        "id": 1,
+        "title": "Financial Backoffice iFood",
+        "image": "img/ifood.png",
+        "description": "Esta é uma interface de aplicação financeira desenvolvida como parte do desafio do iFood. O objetivo do projeto é criar uma interface amigável que possibilite o gerenciamento de receitas e despesas utilizando tecnologias modernas da web.",
         "details": "",
-        "technologies": ["html", "css", "javascript"],
-        "github-link": "",
-        "online-link": ""
+        "technologies": ["html", "css", "javascript", "bootstrap"],
+        "githubLink": "https://github.com/vinovieira/ifood-challenge-2024",
+        "onlineLink": "https://ifood-challenge-2024.vercel.app/"
     },
     {
         "id": 2,
+        "title": "EasyFinance",
+        "image": "img/easyfinance.png",
+        "description": "Sistema web completo de controle financeiro pessoal, conta com CRUD de despesas e receitas, visualização de saldo por período, autenticação de usuários, cadastro de usuários, envio de email de acesso.",
+        "details": "",
+        "technologies": ["Java", "JSP", "javascript", "bootstrap", "Oracle DB", "sql", "Apache Tomcat", "Maven", "JDBC", "Servlets"],
+        "githubLink": "https://github.com/vinovieira/easy-finance",
+        "onlineLink": "#"
+    },
+    {
+        "id": 3,
         "title": "DevLinks",
         "image": "img/dev-links.png",
         "description": "O DevLinks é um projeto totalmente funcional, com intuito de servir como agregador de links para usar como cartão de visitas online.",
         "details": "",
         "technologies": ["html", "css", "javascript"],
-        "github-link": "",
-        "online-link": ""
+        "githubLink": "https://github.com/vinovieira/developer-links",
+        "onlineLink": "https://vinovieira.github.io/developer-links/"
     },
     {
-        "id": 1,
-        "title": "Financial Backoffice iFood",
-        "image": "img/ifood.png",
-        "description": "Esta é uma aplicação financeira desenvolvida como parte do desafio do iFood. O objetivo do projeto é criar uma interface amigável que possibilite o gerenciamento de receitas e despesas utilizando tecnologias modernas da web.",
+        "id": 4,
+        "title": "BookStore",
+        "image": "img/bookstore.png",
+        "description": "Projeto básico de layout de uma loja de livros desenvolvido para praticar conceitos fundamentais de desenvolvimento web front-end.",
         "details": "",
-        "technologies": ["html", "css", "javascript", "bootstrap"],
-        "github-link": "",
-        "online-link": ""
+        "technologies": ["html", "css", "javascript"],
+        "githubLink": "https://github.com/vinovieira/layout-bookstore",
+        "onlineLink": "https://bookstore-zeta-swart.vercel.app/"
     }
 ]

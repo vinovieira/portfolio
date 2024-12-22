@@ -3,7 +3,6 @@ export default function initProjectsList() {
         const projectContainer = document.querySelector('#project-container');
 
         const modal = document.getElementById('modal');
-        const modalContent = document.getElementById('modal-content');
         const closeModal = document.getElementById('close-modal');
         const modalTitle = document.getElementById('modal-title');
         const modalImage = document.getElementById('modal-image');
@@ -26,10 +25,33 @@ export default function initProjectsList() {
                             `<li><p class="projeto__tecnologia">${technology}</p></li>`
                         ).join(' ')}
                     </ul>`
+        
+        card.addEventListener('click', () => {
+            modalTitle.textContent = item.title;
+            modalImage.setAttribute('src', item.image);
+            modalDetails.textContent = item.details;
+            modalTechnologies.innerHTML = "";
+            item.technologies.forEach(technologie => {
+                const li = document.createElement("li");
+                li.innerHTML = `<p class="projeto__tecnologia">${technologie}</p>`;
+                modalTechnologies.appendChild(li);
+            });
+            modalGithubLink.setAttribute('href', item.githubLink);
+            modalOnlineLink.setAttribute('href', item.onlineLink);
+            modal.style.display = "flex";
+        })            
 
         projectContainer.appendChild(card)
     }))
-    })
 
-       
+    closeModal.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    window.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+    })
 }
