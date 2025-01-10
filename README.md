@@ -8,7 +8,6 @@ Esse é o projeto do meu Portfólio, pensado para ser simples e objetivo, não d
 
 - Light/dark mode
 - Modal
-- Navegação Assíncrona
 - Responsividade
 
 
