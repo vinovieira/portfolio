@@ -1,42 +1,186 @@
 [
-    {
-        "id": 1,
-        "title": "Financial Backoffice iFood",
-        "image": "img/ifood.png",
-        "description": "Esta é uma interface de aplicação financeira desenvolvida como parte do desafio do iFood. O objetivo do projeto é criar uma interface amigável que possibilite o gerenciamento de receitas e despesas utilizando tecnologias modernas da web.",
-        "details": "",
-        "technologies": ["html", "css", "javascript", "bootstrap"],
-        "githubLink": "https://github.com/vinovieira/ifood-challenge-2024",
-        "onlineLink": "https://ifood-challenge-2024.vercel.app/"
-    },
-    {
-        "id": 2,
-        "title": "EasyFinance",
-        "image": "img/easyfinance.png",
-        "description": "Sistema web completo de controle financeiro pessoal, conta com CRUD de despesas e receitas, visualização de saldo por período, autenticação de usuários, cadastro de usuários, envio de email de acesso.",
-        "details": "",
-        "technologies": ["Java", "JSP", "javascript", "bootstrap", "Oracle DB", "sql", "Apache Tomcat", "Maven", "JDBC", "Servlets"],
-        "githubLink": "https://github.com/vinovieira/easy-finance",
-        "onlineLink": "#"
-    },
-    {
-        "id": 3,
-        "title": "DevLinks",
-        "image": "img/dev-links.png",
-        "description": "O DevLinks é um projeto totalmente funcional, com intuito de servir como agregador de links para usar como cartão de visitas online.",
-        "details": "",
-        "technologies": ["html", "css", "javascript"],
-        "githubLink": "https://github.com/vinovieira/developer-links",
-        "onlineLink": "https://vinovieira.github.io/developer-links/"
-    },
-    {
-        "id": 4,
-        "title": "BookStore",
-        "image": "img/bookstore.png",
-        "description": "Projeto básico de layout de uma loja de livros desenvolvido para praticar conceitos fundamentais de desenvolvimento web front-end.",
-        "details": "",
-        "technologies": ["html", "css", "javascript"],
-        "githubLink": "https://github.com/vinovieira/layout-bookstore",
-        "onlineLink": "https://bookstore-zeta-swart.vercel.app/"
-    }
+  {
+    "id": 4,
+    "title": "DSCommerce [ API REST ]",
+    "image": "img/dscommerce.png",
+    "description": "API REST feita com o framework Spring (Springboot, Spring Security, Spring Data Jpa) para gestão das principais funcionalidades de um sistema e-commerce, incluindo autenticação e autorização com OAuth2 e JWT.",
+    "sections": [
+      {
+        "subtitulo": "Introdução",
+        "paragrafos": [
+          "O projeto é uma API REST para um sistema de e-commerce que permite gerenciar usuários, produtos e categorias. Ele fornece os endpoints necessários para operações como apresentar um catálogo de produtos filtrável por nome, onde os usuários podem visualizar detalhes e adicionar itens a um carrinho de compras. A API permite gerenciar o carrinho (incluir, remover ou alterar quantidades) e registrar pedidos, que são salvos com status inicial 'aguardando pagamento'. Os pedidos podem mudar de status (pago, enviado, entregue, cancelado), e o instante de pagamento é registrado."
+        ]
+      }
+    ],
+    "technologies": [
+      "<i class='fa-solid fa-leaf'></i>",
+      "<i class='fa-solid fa-database'></i>"
+    ],
+    "githubLink": "https://github.com/vinovieira/dscommerce",
+    "onlineLink": "#"
+  },
+  {
+    "id": 1,
+    "title": "Financial Backoffice iFood [ Frontend ]",
+    "image": "img/ifood.png",
+    "description": "Esta é uma interface de aplicação financeira desenvolvida como parte do desafio do iFood. O objetivo do projeto é criar uma interface amigável que possibilite o gerenciamento de receitas e despesas utilizando tecnologias modernas da web.",
+    "sections": [
+      {
+        "subtitulo": "O Desafio",
+        "paragrafos": [
+          "Este projeto surgiu com a necessidade da empresa de delivery iFood disponibilizar para seus parceiros um sistema estilo Backoffice para gestão dos seus empreendimentos."
+        ]
+      },
+      {
+        "subtitulo": "A Solução",
+        "paragrafos": [
+          "Utilizando uma interface intuitiva, nossa aplicação permite aos restaurantes parceiros visualizarem os dados financeiros mais importantes de forma clara e prática. Com isso, ajudamos nossos parceiros a tomar decisões informadas e a impulsionar o crescimento do seu negócio."
+        ]
+      },
+      {
+        "subtitulo": "Insights",
+        "paragrafos": []
+      },
+      {
+        "subtitulo": "1. Gráficos e menus que podem ser personalizados",
+        "paragrafos": [
+          "Com nosso dashboard financeiro personalizável, você pode ajustar gráficos e menus para visualizar as vendas de forma detalhada, incluindo horários de pico, localizações mais lucrativas, dias da semana e meses com maior volume de vendas. Isso permite uma análise precisa e adaptada às necessidades específicas do seu negócio."
+        ]
+      },
+      {
+        "subtitulo": "2. Relatórios podem estar em formato PDF ou Excel",
+        "paragrafos": [
+          "Nossos geradores de relatórios oferecem flexibilidade ao permitir que você escolha o formato de sua preferência, seja PDF ou Excel. Isso facilita a análise e o compartilhamento de dados financeiros, garantindo que as informações sejam compreensíveis e acessíveis de maneira conveniente."
+        ]
+      },
+      {
+        "subtitulo": "3. Poder para editar o nível de acesso de cada funcionário",
+        "paragrafos": [
+          "Com a tela de segurança e controle, você tem a capacidade de definir e gerenciar o nível de acesso de cada funcionário. Isso assegura que apenas pessoas autorizadas possam acessar informações sensíveis, aumentando a segurança e o controle sobre os dados financeiros do restaurante."
+        ]
+      }
+    ],
+    "tech": ["html", "css", "javascript", "bootstrap"],
+    "technologies": [
+      "<i class='fa-brands fa-html5'></i>",
+      "<i class='fa-brands fa-css3-alt'></i>",
+      "<i class='fa-brands fa-js'></i>",
+      "<i class='fa-brands fa-bootstrap'></i>"
+    ],
+    "githubLink": "https://github.com/vinovieira/ifood-challenge-2024",
+    "onlineLink": "https://ifood-challenge-2024.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "EasyFinance [ Sistema Web ]",
+    "image": "img/easyfinance.png",
+    "description": "Sistema web completo de controle financeiro pessoal, conta com CRUD de despesas e receitas, visualização de saldo por período, autenticação de usuários, cadastro de usuários, envio de email de acesso.",
+    "sections": [
+      {
+        "subtitulo": "Introdução",
+        "paragrafos": [
+          "EasyFinance é uma aplicação web de controle financeiro pessoal projetada para facilitar o gerenciamento de receitas, despesas e saldos. Este projeto utiliza uma combinação de tecnologias modernas para oferecer uma interface intuitiva e funcionalidades robustas."
+        ]
+      },
+      {
+        "subtitulo": "Desenvolvimento",
+        "paragrafos": [
+          "✔ Além das Tecnologias descritas abaixo, foi utilizado o padrão MVC para estruturar a arquitetura do projeto, o qual busca separar as preocupações de um aplicativo em três componentes principais: Model, View e Controller.",
+          "✔ O padrão MVC tem as seguintes vantagens: Aumento de produtividade, Uniformidade na estrutura do software, Redução de complexidade no código, Facilidade de manutenção do código, Facilidade na implementação de camadas de segurança. ",
+          "✔ Além disso, foram utilizados Servlets para implementação da camada Controller, os quais são responsáveis por receber requisições HTTP em uma aplicação Java."
+        ]
+      },
+      {
+        "subtitulo": "Backend",
+        "paragrafos": [
+          "☑︎ JSP (JavaServer Pages): Renderização dinâmica de páginas HTML.",
+          "☑︎ JSTL (JavaServer Pages Standard Tag Library): Simplifica a manipulação de dados no frontend.",
+          "☑︎ EL (Expression Language): Facilita o acesso a dados do backend no JSP.",
+          "☑︎ JDBC (Java Database Connectivity): Conexão e manipulação de dados no banco de dados Oracle.",
+          "☑︎ Oracle Database: Armazenaço seguro e confiável de dados financeiros."
+        ]
+      },
+      {
+        "subtitulo": "Frontend",
+        "paragrafos": [
+          "☑︎ JavaScript: Responsável por pequenbas interações dinâmicas nas páginas e pelos filtros por período.",
+          "☑︎ Bootstrap: Framework CSS para design responsivo, padronização e agilidade no desenvolvimento.",
+          "☑︎ DataTables: Biblioteca JavaScript para tabelas interativas."
+        ]
+      }
+    ],
+    "tech": [
+      "java",
+      "JSP",
+      "javascript",
+      "bootstrap",
+      "Orable DB",
+      "SQL",
+      "Apache Tomcat",
+      "Maven",
+      "JDBC",
+      "Servlets"
+    ],
+    "technologies": [
+      "<i class='fa-brands fa-java'></i>",
+      "<i class='fa-brands fa-js'></i>",
+      "<i class='fa-brands fa-bootstrap'></i>",
+      "<i class='fa-solid fa-database'></i>"
+    ],
+    "githubLink": "https://github.com/vinovieira/easy-finance",
+    "onlineLink": "#"
+  },
+  {
+    "id": 3,
+    "title": "DevLinks [ Sistema Web ]",
+    "image": "img/dev-links.png",
+    "description": "O DevLinks é um projeto totalmente funcional, com intuito de servir como agregador de links para usar como cartão de visitas online.",
+    "sections": [
+      {
+        "subtitulo": "Introdução",
+        "paragrafos": [
+          "O DevLinks é um projeto totalmente funcional, com intuito de servir como agregador de links para usar como cartão de visitas online."
+        ]
+      },
+      {
+        "subtitulo": "Insight",
+        "paragrafos": []
+      },
+      {
+        "subtitulo": "1. Centralização de Recursos e Portfólio",
+        "paragrafos": [
+          "A página de links pode funcionar como um ponto de referência único para todos os recursos que um desenvolvedor deseja compartilhar. Ao incluir links para seu portfólio, repositórios GitHub, artigos, blog técnico, e até perfis em plataformas como LinkedIn ou Stack Overflow, o desenvolvedor consegue centralizar suas realizações e facilitar o acesso a todos os aspectos de seu trabalho."
+        ]
+      }
+    ],
+    "technologies": [
+      "<i class='fa-brands fa-html5'></i>",
+      "<i class='fa-brands fa-css3-alt'></i>",
+      "<i class='fa-brands fa-js'></i>"
+    ],
+    "githubLink": "https://github.com/vinovieira/developer-links",
+    "onlineLink": "https://vinovieira.github.io/developer-links/"
+  },
+  {
+    "id": 4,
+    "title": "BookStore [ Frontend ]",
+    "image": "img/bookstore.png",
+    "description": "Projeto de layout de uma loja de livros desenvolvido para praticar conceitos fundamentais de desenvolvimento web front-end.",
+    "sections": [
+      {
+        "subtitulo": "Introdução",
+        "paragrafos": [
+          "Projeto de layout de uma loja de livros desenvolvido para praticar conceitos fundamentais de desenvolvimento web front-end.",
+          "Foi utilizado o Mobile First, que é um conceito aplicado em projetos web onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis e em seguida para os desktops."
+        ]
+      }
+    ],
+    "technologies": [
+      "<i class='fa-brands fa-html5'></i>",
+      "<i class='fa-brands fa-css3-alt'></i>",
+      "<i class='fa-brands fa-js'></i>"
+    ],
+    "githubLink": "https://github.com/vinovieira/layout-bookstore",
+    "onlineLink": "https://bookstore-zeta-swart.vercel.app/"
+  }
 ]

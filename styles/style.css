@@ -42,6 +42,10 @@ body {
     padding: 0 2em;
 }
 
+.disabled {
+    display: none;
+  }
+
 .js [data-anima="section"] {
     opacity: 0;
     transition: .5s;
