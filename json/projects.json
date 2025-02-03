@@ -3,7 +3,7 @@
     "id": 4,
     "title": "DSCommerce [ API REST ]",
     "image": "img/dscommerce.png",
-    "description": "API REST feita com o framework Spring (Springboot, Spring Security, Spring Data Jpa) para gestão das principais funcionalidades de um sistema e-commerce, incluindo autenticação e autorização com OAuth2 e JWT.",
+    "description": "API REST feita com o framework Spring (Spring Boot, Spring Security, Spring Data Jpa) para gestão das principais funcionalidades de um sistema e-commerce, incluindo autenticação e autorização com OAuth2 e JWT.",
     "sections": [
       {
         "subtitulo": "Introdução",
