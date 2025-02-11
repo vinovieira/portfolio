@@ -75,6 +75,59 @@
     font-family: var(--fonte-principal);
 }
 
+/* Rainbow glow button */
+.rainbow-btn {
+    margin-left: 1em;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: .5s;
+    background: #222;
+    border: 2px solid transparent;
+    z-index: 10; /* Garante que o botão fique acima de outros elementos */
+    overflow: hidden; /* Garante que o brilho não sobreponha o botão */
+}
+
+.rainbow-btn:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1; /* Coloca o efeito de glow na borda */
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 10px;
+    animation: rainbow 8s linear infinite;
+    filter: blur(3px);
+    opacity: 1;
+}
+
+.rainbow-btn:hover:after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    z-index: -2; /* Aparece apenas no hover */
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 12px;
+    animation: rainbow 8s linear infinite;
+    filter: blur(8px);
+    opacity: 1;
+}
+
+@keyframes rainbow {
+    0% { background-position: 0%; }
+    100% { background-position: 400%; }
+}
+
 /* .projeto__saiba-mais {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;

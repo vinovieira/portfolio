@@ -24,9 +24,10 @@ export default function initProjectsList() {
                         ${item.technologies
                           .map(
                             (technology) =>
-                              `<li><p class="projeto__tecnologia">${technology}</p></li>`,
+                              `<li><p class="projeto__tecnologia" title="${technology.name}">${technology.icon}</p></li>`,
                           )
                           .join(' ')}
+                          <li><a class="rainbow-btn">Saiba mais</a></li>
                     </ul>`;
 
           card.addEventListener('click', () => {

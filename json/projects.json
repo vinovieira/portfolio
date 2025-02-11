@@ -13,8 +13,14 @@
       }
     ],
     "technologies": [
-      "<i class='fa-solid fa-leaf'></i>",
-      "<i class='fa-solid fa-database'></i>"
+      {
+        "icon": "<i class='fa-solid fa-leaf'></i>",
+        "name": "Spring Boot"
+      },
+      {
+        "icon": "<i class='fa-solid fa-database'></i>",
+        "name": "H2, PostgreSQL"
+      }
     ],
     "githubLink": "https://github.com/vinovieira/dscommerce",
     "onlineLink": "#"
@@ -62,10 +68,22 @@
     ],
     "tech": ["html", "css", "javascript", "bootstrap"],
     "technologies": [
-      "<i class='fa-brands fa-html5'></i>",
-      "<i class='fa-brands fa-css3-alt'></i>",
-      "<i class='fa-brands fa-js'></i>",
-      "<i class='fa-brands fa-bootstrap'></i>"
+      {
+        "icon": "<i class='fa-brands fa-html5'></i>",
+        "name": "HTML5"
+      },
+      {
+        "icon": "<i class='fa-brands fa-css3-alt'></i>",
+        "name": "CSS3"
+      },
+      {
+        "icon": "<i class='fa-brands fa-js'></i>",
+        "name": "JavaScript"
+      },
+      {
+        "icon": "<i class='fa-brands fa-bootstrap'></i>",
+        "name": "Bootstrap"
+      }
     ],
     "githubLink": "https://github.com/vinovieira/ifood-challenge-2024",
     "onlineLink": "https://ifood-challenge-2024.vercel.app/"
@@ -109,23 +127,23 @@
         ]
       }
     ],
-    "tech": [
-      "java",
-      "JSP",
-      "javascript",
-      "bootstrap",
-      "Orable DB",
-      "SQL",
-      "Apache Tomcat",
-      "Maven",
-      "JDBC",
-      "Servlets"
-    ],
     "technologies": [
-      "<i class='fa-brands fa-java'></i>",
-      "<i class='fa-brands fa-js'></i>",
-      "<i class='fa-brands fa-bootstrap'></i>",
-      "<i class='fa-solid fa-database'></i>"
+      {
+        "icon": "<i class='fa-brands fa-java'></i>",
+        "name": "Java"
+      },
+      {
+        "icon": "<i class='fa-brands fa-js'></i>",
+        "name": "JavaScript"
+      },
+      {
+        "icon": "<i class='fa-brands fa-bootstrap'></i>",
+        "name": "Bootstrap"
+      },
+      {
+        "icon": "<i class='fa-solid fa-database'></i>",
+        "name": "OracleDB"
+      }
     ],
     "githubLink": "https://github.com/vinovieira/easy-finance",
     "onlineLink": "#"
@@ -154,9 +172,18 @@
       }
     ],
     "technologies": [
-      "<i class='fa-brands fa-html5'></i>",
-      "<i class='fa-brands fa-css3-alt'></i>",
-      "<i class='fa-brands fa-js'></i>"
+      {
+        "icon": "<i class='fa-brands fa-html5'></i>",
+        "name": "HTML5"
+      },
+      {
+        "icon": "<i class='fa-brands fa-css3-alt'></i>",
+        "name": "CSS3"
+      },
+      {
+        "icon": "<i class='fa-brands fa-js'></i>",
+        "name": "JavaScript"
+      }
     ],
     "githubLink": "https://github.com/vinovieira/developer-links",
     "onlineLink": "https://vinovieira.github.io/developer-links/"
@@ -176,9 +203,18 @@
       }
     ],
     "technologies": [
-      "<i class='fa-brands fa-html5'></i>",
-      "<i class='fa-brands fa-css3-alt'></i>",
-      "<i class='fa-brands fa-js'></i>"
+      {
+        "icon": "<i class='fa-brands fa-html5'></i>",
+        "name": "HTML5"
+      },
+      {
+        "icon": "<i class='fa-brands fa-css3-alt'></i>",
+        "name": "CSS3"
+      },
+      {
+        "icon": "<i class='fa-brands fa-js'></i>",
+        "name": "JavaScript"
+      }
     ],
     "githubLink": "https://github.com/vinovieira/layout-bookstore",
     "onlineLink": "https://bookstore-zeta-swart.vercel.app/"
